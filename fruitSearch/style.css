@@ -1,0 +1,80 @@
+* {
+    /* box-sizing: border-box; */
+  }
+  
+  :focus {
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 10px;
+
+  }
+  
+  body {
+    background: linear-gradient(to right, #ff7b00, #ffb700);
+    height: 100vh;
+  }
+  
+  input {
+   text-align: center;
+   border-radius: 25px;
+   border: 2px solid #ff7b00;
+   padding: 20px;
+   width: 200px;
+   height: 10px;
+   box-sizing: border-box;
+  }
+  
+  .search-container {
+    text-align: center;
+    margin : auto;
+    display : block;
+    padding: 20px;
+    padding-bottom: 0%;
+    font-size: 24 px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 80%;
+  }
+  .search-container input,
+  .search-container .suggestions {
+    text-align: center;
+  }
+  .search-container input {
+
+  }
+  .search-container .suggestions {
+    background-color: rgba(255,255,255,0.4);
+    padding-left: 0%;
+    text-align: center;
+    margin : auto;
+    display : block;
+    padding-bottom: 0%;
+    font-size: 24 px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 80%;
+     
+  }
+  
+  ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0%;
+  }
+  ul.has-suggestions {
+
+  }
+  ul li {
+    text-align: center;
+  }
+  ul li:hover {
+    background-color: rgba(3, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+  }
